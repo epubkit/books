@@ -1,5 +1,7 @@
 ---
 import {SEO} from 'astro-seo'
+import Umami from '../components/Umami.astro';
+
 const books = [
 	{
 		title: "产品经理的无限游戏",
@@ -35,6 +37,7 @@ const books = [
 		<SEO 
 			title="EpubKit 电子书精选"
 		/>
+		<Umami />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/ico" href="/fav.ico" />
